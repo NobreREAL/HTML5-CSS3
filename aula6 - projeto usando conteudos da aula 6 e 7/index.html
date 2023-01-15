@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução a tags para formatação</title>
+    <style>
+        body{
+            background-color:rgb(152, 200, 255)
+        }
+
+        #main_tittle{
+            color:rgb(27, 27, 27);
+        }
+
+        .tags{
+            font-size:20px
+        }
+
+        mark{
+            background-color:rgb(226, 43, 43)
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id = main_tittle class = "introducao"> Conteúdo referente as tags para formatação</h1>
+    <h2> Frase em Negrito </h2>
+    <p id = first_text class = "tags">
+        No que se refere, ao ambito de uma grande <strong style="background-color:aqua" >guerra</strong>, levanta-se a seguinte questão
+        - essa palavra "guerra" usa a tag "strong" (é uma tag semântica)
+    </p>
+    
+    <p id = second_text class = "tags"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quos, quidem! Accusamus odio, <b style="background-color:aqua">maxime, cupiditate ex, expedita</b>
+        dolore beatae tenetur velit repellendus doloribus cum laudantium ratione
+        illum vel eveniet ullam in.  - frase usando a tag "b" (é uma tag não semântica)
+    </p>
+
+    <h2> Frase em Italico </h2>
+
+    <p class = "tags">
+        Dica interessante: apertando ctrl + shift + p, selecionando previamente o
+        que você quer por tag no html, consegue-se cortar um bom tempo. >> <i style="background-color:aqua">aqui o exemplo</i> 
+        (btw, a tag é a "i", não semântica)
+    </p>
+
+    <p class = "tags">
+        Esse textozinho será escrito aqui: <em style="background-color:aqua">essa frase foi formatada em italico</em>.
+        a (tag é a "em", semântica.)
+    </p>
+
+    <h2> Frase marcada</h2>
+
+    <p class = "tags">
+        Essa palavra recebera a tag mark: <mark>dia</mark>
+    </p>
+
+    <h2> Texto grande e texto pequeno nesse paragráfo</h2>
+
+    <p class = "tags">
+        <big style="background-color:aqua">Grande</big> e <small style="background-color:aqua">pequeno</small> usam as tags respectivamentes big e small
+    </p>
+
+    <h2> Texto Excluido, Inserido e sublinhado</h2>
+
+    <p class = "tags">
+        Essa palavra <del style="background-color:aqua">Deletado</del> usa a tag del. <br>
+        Essa palavra <ins style="background-color:aqua">Adicionado</ins> usa a tag ins. <br>
+        Essa palavra <u   style="background-color:aqua">Adicionado?</u> usa a tag u (que é não semântica.)
+    </p>
+
+    <h2>
+        Texto Sobrescrito e Subscrito
+    </h2>
+
+    <p class = "tags">
+        Essa citação: x<sup style="background-color:aqua">20</sup>+3 foi usada a tag sup. <br>
+        Essa citação: H<sub style = "background-color:aqua">2</sub>O foi usada a tag sub. <br>
+    </p> 
+    
+</body>
+</html>
