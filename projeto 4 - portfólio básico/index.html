@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <style>
+        body {
+            background-image: url("background.jpg");
+            font-family: Arial;
+        }
+
+        html,
+        body {
+            margin: 0px;
+            height: 100px;
+        }
+
+        .tittle {
+            font-size: 25px;
+            text-align: center;
+            font-family: Arial;
+        }
+
+        .filter {
+            background: rgba(0, 0, 0, 0.5);
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            position: absolute;
+        }
+
+        .square {
+            background: rgba(255, 255, 255, 0.55);
+            width: 328px;
+            height: 340px;
+            top: 50px;
+            left: 50px;
+            position: relative;
+            border-radius: 6%;
+        }
+
+        .social_media {
+            background: rgba(255, 255, 255, 0.55);
+            width: 678px;
+            height: 500px;
+            bottom: 298px;
+            left: 500px;
+            position: relative;
+            border-radius: 6%;
+        }
+
+        .informations{
+            background: rgba(0, 153, 255, 0.534);
+            width: 97%;
+            height: 96%;
+            position:absolute;
+            top: 10px;
+            left:10px;
+            border-radius: 6%;
+        }
+
+        .profile{
+            background: rgb(0, 110, 255);
+            top:128px;
+            left:64px;
+            right:64px;
+            bottom:128px;
+            position: absolute;
+            border-radius: 10%;
+        }
+
+        #profile_photo{
+            top:-75px;
+            left:-26px;
+            right:0px;
+            position: relative;
+            border-radius: 10%;
+        }
+
+        #aboutme{
+            position:relative;
+            top:15px;
+        }
+
+        #main_tittle{
+            font-size:20px;
+            left: 15px;
+            position:relative;
+        }
+
+        .about_me{
+            font-size:16px;
+            left: 15px;
+            text-align: center;
+            position:relative;
+        }
+
+        #sub_tittle{
+            font-size:20px;
+            left: 15px;
+            position:relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="filter">
+        <div class="square">
+            <div class = "profile">
+                <img src="profile2.jpg" alt="profile_photo" id="profile_photo">
+            </div>
+            <h1 class="tittle" id="aboutme">Quem sou eu?</h2>
+        </div>
+
+        <div class="social_media">
+            <div class="informations">
+                <h1 id="main_tittle">Minhas redes sociais:</h1>
+                <ul type="circle">
+                    <li>Github: <strong><a href="https://github.com/NobreREAL" target="_blank">NobreREAL</a></strong></li>
+                    <li>Instagram: <strong><a href="https://www.instagram.com/dev_lucas.nobr/" target="_blank">dev_lucasnobr</a></strong></li>
+                    <li>Hotmail: <strong>lucasnobreoficial@hotmail.com</strong></li>
+                    <li>Linkedin: <strong><a href="https://www.linkedin.com/in/lucas-nobre-fernandes-4b2408203/" target="_blank">Lucas Nobre Fernandes</a> </strong></li>
+                </ul>
+
+                <h2 id="sub_tittle">Atividades realizadas:</h2>
+                <ul type="circle">
+                    <li>Desenvolvimento de algoritmos utilizando linguágens desde:</li>
+                    <ul type="square">
+                        <li>Python</li>
+                        <li>C#</li>
+                        <li>C/C++</li>
+                    </ul>
+                    <li>Utilização de frameworks do tipo:
+                    <ul type="square">
+                        <li>MySQLConnector <-- Python, C#, C/C++</li>
+                        <li>OpenCV <-- Python, C++</li>
+                    </ul>                    
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+        <!--    
+            top: 150px;
+            left: 500px;
+            right: 500px;
+            bottom: 50px;
+
+            CENTRO DA TELA
+        -->
+
+</html>
