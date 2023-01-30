@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Startup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <h1>Tudo referente a fontes no CSS</h1>
+    <h2>Uso de fontes por @import</h2>
+    <p>
+        Quando queremos importar fontes que não estão por padrão
+        no computador, devemos nos atentar a forma que queremos
+        importar, podemos tanto baixar e importar do computador local
+        como também, podemos importar usando url.
+    </p>
+
+    <h2>Exemplo: Usando fonte sem baixar</h2>
+
+    <p>O título do blog, usou-se a fonte
+    <a class = "font" href="https://fonts.google.com/specimen/Orbitron" target="_blank" 
+    rel="external">Orbitron</a> com o seguinte comando: 
+    <strong>@import url('https://fonts.googleapis.com/css2?family=
+    Orbitron&display=swap');</strong>
+    </p>
+
+    <h2>Exemplo: Baixando e usando fonte</h2>
+
+    <p>Os subtítulos do blog, usou-se a fonte:<a class = "font" id="font2" href="https://fonts.google.com/specimen/Quicksand?
+    preview.text=eae&preview.text_type=custom&category=Sans+Serif" target="_blank" 
+    rel="external">Quicksand</a> com o seguinte passo a passo:<br></p>
+    <ol type="1">
+        <li>Baixar a fonte no Google Fonts (você pode baixar diretamente por aqui a
+        <strong>que foi usada no site</strong>: <a href="fonts/Quicksand-Light.ttf" download="Quicksand-Light.ttf">Clicando aqui</a>.</li><br>
+        <li>Depois disso, instale o arquivo na pasta raiz de seu arquivo html (recomendo criar uma pasta chamada fonts, e inserir todas as fontes nela.)</li><br>
+        <li>Após inserido, usa-se o seguinte comando:<strong>
+            @font-face {
+                font-family: 'Quicksand';
+                src: url('fonts/Quicksand-Light.ttf') format('truetype');
+            }
+        </strong></li><br>
+        <li>Insira em seu arquivo CSS.</li><br>
+        <li>Pronto, fonte instalada e pronta para usar :)</li>
+        </li>
+    </ol>
+</main>
+</body>
+</html>
