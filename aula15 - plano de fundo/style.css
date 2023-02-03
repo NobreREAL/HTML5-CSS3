@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin:0px;
+}
+
+body{
+    font-family:arial;
+    font-size:1.2em;
+    background-color:black;
+    color:darkgreen;
+}
+
+div.caixa{
+    border: 2px solid rgb(0, 255, 106);
+    width:500px;
+    height:150px;
+    margin:10px;
+    padding:10px;
+    background-image:url(img/img.jpg);
+}
+
+div.ordem{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin:auto;
+}
+
+
+p{
+    color:white;
+    border:2px solid rgb(0, 255, 106);
+    padding:10px;
+    margin:10px;
+    width:100px;
+    height:150px;
+    text-align:justify;
+}
+
+
+div#caixa01
+{
+background-size:cover;
+
+}
+div#caixa02
+{
+background-size:auto;   
+}
+div#caixa03
+{
+background-size:contain;
+}
+
+
+@media (min-width:900px) {
+    div.caixa, p{
+        width:800px;
+    }
+
+    div.ordem{
+        flex-direction: column;
+    }
+}
