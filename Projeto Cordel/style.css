@@ -119,6 +119,14 @@ footer a:hover {
     main article#texto5 p{
         width:50%;
     }
+    
+    footer p{
+        font-size:0.8em;
+    }
+
+    footer p > a {
+        font-size:1em;
+    }
 }
 
 @media (min-width:801px)
