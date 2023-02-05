@@ -1,0 +1,3 @@
+Hypertext Markup Language (HTML) é a linguagem de computador que compõe a maioria das páginas da web e aplicativos online. O hipertexto é um texto usado para se referir a outro texto, enquanto a linguagem de marcação é uma série de tags que informam ao servidor da Web qual é o estilo e a estrutura do documento.
+
+O HTML não é considerado uma linguagem de programação porque não pode criar funções dinâmicas. Em vez disso, com HTML, os usuários podem criar e construir seções, parágrafos e links usando elementos, tags e atributos.
