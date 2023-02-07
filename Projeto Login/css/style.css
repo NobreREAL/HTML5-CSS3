@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image:url("../arquivos_img/background1.jpg");
+    background-image:url("../img/background1.jpg");
     background-size:cover;
     background-attachment: fixed;
     background-repeat:no-repeat;
