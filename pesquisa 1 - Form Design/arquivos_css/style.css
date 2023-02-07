@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-image:url("../arquivos_img/background1.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    font-family:arial;
+}
+
+div.menu{
+    background-color: rgba(0, 0, 0, 0.774);
+    width:400px;
+    height:470px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    border-radius:70px 0px;
+}
+
+div img{
+    width:125px;
+    position:relative;
+    transform:translate(-50%,-50%);
+    left:50%;
+
+}
+
+div h1{
+    text-align:center;
+    letter-spacing:10px;
+    color:white;
+    margin:-60px;
+}
+
+form{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:32%;
+    left:15%;
+}
+
+label#usuario{
+    margin:60px 0px;
+}
+
+input#username{
+    position:absolute;
+    border:none;
+    border-bottom:2px solid rgba(255, 255, 255, 0.473);
+    width:330px;
+    padding:10px 0px 0px 0px;;
+    background-color:transparent;
+    font-size:1.2em;
+    color:white;
+}
+
+input#passcode{
+    position:absolute;
+    border:none;
+    background-color:transparent;
+    border-bottom:2px solid rgba(255, 255, 255, 0.473);
+    padding:10px 0px 0px 0px;;
+    width:330px;
+    font-size:1.2em;
+    color:white;
+}
+
+input#logar{
+    margin:80px 0px 0px 0px;
+    width:330px;
+    padding:8px;
+    position:absolute;
+    top:100%;
+    border:2px solid white;
+    border-radius:20px;
+    font-size:1.2em;
+}
+
+div a {
+    color:rgb(189, 189, 189);
+    text-decoration:none;
+    position:absolute;
+    transform:translate(-50% -50%);
+    margin:145px 0px 0px 0px;
+    top:100%;
+    width:200px;
+}
+
+div a#criar_conta{
+    color:rgb(255, 0, 0);
+    font-weight: bolder;
+    margin:185px 0px 0px 0px;
+    width:400px;
+}
+
+@media (max-width:520px)
+{
+    div.menu{
+        margin:auto;
+    }
+}
